@@ -48,3 +48,22 @@ x = 3 + 4j
 
 print(x.real)
 print(x.imag)
+
+# string (str)
+name = "John"           
+print(type(name))
+print(name)
+
+# Boolean (bool)    
+is_active = True    
+print(type(is_active))
+print(is_active)
+
+
+# check the size of the data types using sys.getsizeof() function
+import sys
+
+print(sys.getsizeof(22))
+print(sys.getsizeof(99.99))
+print(sys.getsizeof(True))
+print(sys.getsizeof("Pavan"))
