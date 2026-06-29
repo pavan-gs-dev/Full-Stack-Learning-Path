@@ -1,0 +1,110 @@
+\documentclass[10.5pt,a4paper]{article}
+
+\usepackage[left=0.50in,right=0.50in,top=0.40in,bottom=0.40in]{geometry}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage[hidelinks]{hyperref}
+\usepackage{tabularx}
+\usepackage{array}
+
+\definecolor{headingblue}{RGB}{20,35,95}
+\definecolor{subtext}{RGB}{70,70,70}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\linespread{1.04}
+
+\titleformat{\section}
+{\bfseries\large\color{headingblue}}
+{}
+{0em}
+{}
+[\vspace{1pt}\titlerule\vspace{-3pt}]
+
+\titlespacing*{\section}{0pt}{9pt}{9pt}
+
+\setlist[itemize]{leftmargin=12pt,itemsep=0.8pt,topsep=1pt,parsep=0pt,partopsep=0pt}
+\renewcommand{\arraystretch}{0.92}
+\hyphenation{PHPMailer}
+
+\newcommand{\role}[2]{\textbf{#1} \hfill \textit{#2}}
+
+\begin{document}
+
+%================ HEADER ==================
+\begin{center}
+{\Huge \textbf{PAVAN KUMAR G S}}\\[4pt]
+\textcolor{subtext}{Bengaluru, Karnataka \ — \ +91-6360693609 \ — \ ganeshpavan2004@gmail.com}\\[1pt]
+\textcolor{subtext}{LinkedIn: \href{https://linkedin.com/in/pavan-kumar-g-s-600804277}{linkedin.com/in/pavan-kumar-g-s-600804277} \ — \ GitHub: \href{https://github.com/pavan-gs-dev}{github.com/pavan-gs-dev}}
+\end{center}
+\vspace{-10pt}
+
+%================ SUMMARY ==================
+\section*{PROFESSIONAL SUMMARY}
+Python Full Stack Developer with hands-on experience designing, developing, and deploying \textbf{8+ web and mobile applications} across the full software development life cycle. Proficient in \textbf{Python, FastAPI, Django, Flask, PostgreSQL, MySQL}, and \textbf{REST API} design. Skilled in building scalable backend systems, implementing secure authentication workflows, integrating third-party APIs, and optimizing application performance. Published \textbf{2 Android applications} on the Google Play Store and maintained production-grade applications on Linux VPS environments. Strong foundation in software design patterns, database design, version control with Git, and agile development best practices.
+
+%================ SKILLS ==================
+\section*{TECHNICAL SKILLS}
+\begin{tabularx}{\textwidth}{@{}>{\bfseries}l X@{}}
+Languages         & Python, PHP, Dart, JavaScript \\
+Backend           & FastAPI, Django, Flask, REST API Design, JWT Authentication, OAuth 2.0, Session Management \\
+Frontend          & HTML, CSS, JavaScript, Responsive Web Design, SPA Architecture \\
+Databases         & PostgreSQL, MySQL, SQLite, RoomDB, Relational Database Design \\
+Mobile            & Flutter, Android Studio, Java \\
+DSA               & Arrays, Linked Lists, Trees, Graphs, Hashing, Dynamic Programming, Sorting Algorithms \\
+Tools \& Platforms & Git, GitHub, Linux, Ubuntu Server, Apache, Cloudflare, SMTP, Unit Testing \\
+\end{tabularx}
+
+%================ PROJECTS ==================
+\section*{PROJECT EXPERIENCE}
+
+\role{Production Full-Stack Web Platform}{Python, PHP, MySQL, JavaScript, Apache, Ubuntu}
+\begin{itemize}
+\item Designed and developed a production-ready \textbf{Single Page Application (SPA)} with a scalable architecture, native app-like navigation, and a responsive, mobile-first interface following software engineering best practices.
+\item Implemented a secure \textbf{authentication} system featuring JWT-based session management, auto-login, password reset flows, email verification, and \textbf{SMTP} integration — closely mirroring real-world backend authentication patterns.
+\item Developed and maintained a complete admin management backend spanning \textbf{25+ relational database tables} and \textbf{90+ backend components} covering user management, payments, and administrative operations.
+\item Deployed, configured, and maintained the application on a \textbf{Linux VPS} with Apache, Cloudflare DNS, SSL security, and server hardening — managing the full deployment lifecycle end to end.
+\item Debugged and optimized backend performance, ensuring scalable database queries and reliable system uptime in a live production environment.
+\end{itemize}
+
+\role{AI Face Finder — Python Web Application}{Python, Flask, OpenCV, REST API, Face Recognition}
+\begin{itemize}
+\item Designed and developed a face-recognition web application enabling photographers to upload event photos and attendees to locate their own images via selfie-based matching.
+\item Engineered an automated facial-matching pipeline using \textbf{OpenCV} and the \textbf{Face Recognition} library, eliminating manual photo searches and reducing retrieval time significantly.
+\item Implemented backend \textbf{REST API} endpoints with Flask for authentication, event management, and photo handling; integrated third-party libraries to extend core functionality.
+\item Tested and debugged the end-to-end pipeline to ensure accurate face matching and a smooth user experience across varied input conditions.
+\end{itemize}
+
+\role{Android Applications — Google Play Store}{Java, Android Studio, SQLite, RoomDB}
+\begin{itemize}
+\item Developed, tested, and published \textbf{2 Android applications} on the Google Play Store, delivering multiple production releases and iterative updates based on user feedback.
+\item Designed responsive Android interfaces and implemented local data persistence using \textbf{SQLite} and \textbf{RoomDB}, applying software design patterns for maintainable, scalable mobile code.
+\end{itemize}
+
+\textbf{Additional Projects:} AI Face Attendance System — Expense Manager REST API (Python/FastAPI) \ — \ Colour Space Business Website (PHP) \ — \ Cross-Platform Study App (Flutter)
+
+%================ ACHIEVEMENTS ==================
+\section*{KEY ACHIEVEMENTS}
+\begin{itemize}
+\item Designed and implemented secure, scalable \textbf{authentication} systems — including email verification, password reset, auto-login, and session management — across multiple production applications.
+\item Integrated \textbf{Cloudflare} for DNS management, SSL/TLS security, caching optimization, and application protection in a live deployment environment.
+\item Configured \textbf{PHPMailer} with SMTP authentication to automate transactional emails and account-recovery workflows, improving reliability and user experience.
+\item Deployed, maintained, and optimized production applications on \textbf{Linux VPS} servers with Apache configuration, server hardening, and ongoing performance monitoring.
+\item Designed and optimized \textbf{relational database} schemas across PostgreSQL and MySQL for secure, scalable, and high-performance data management.
+\item Applied software design patterns and best practices — including code modularity, separation of concerns, and version control with \textbf{Git} — consistently across all projects.
+\end{itemize}
+
+%================ EDUCATION ==================
+\section*{EDUCATION}
+\begin{tabularx}{\textwidth}{@{}X r@{}}
+\textbf{Bachelor of Engineering, Computer Science} & 2022 -- 2026 \\
+Ghousia College of Engineering, Bengaluru (VTU Affiliated) & \\
+\end{tabularx}
+
+%================ CERTIFICATIONS ==================
+\section*{CERTIFICATION}
+MindMatrix Internship Program \ — \ Android Application Development using Generative AI
+
+\end{document}
